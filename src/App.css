@@ -1,0 +1,51 @@
+.text::before{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: red;
+  border: 2px solid green;
+  box-shadow: 10px 10px 10px 10px gray;
+  cursor: pointer;
+  height: 100px;
+  width: 300px;
+  content:'Не наводи!';
+  transition: all 1000ms;
+  
+}
+
+.text:hover::before{
+  display: flex;
+  justify-content: center;
+  color: rgb(8, 0, 255);
+  border: 2px solid rgb(0, 242, 255);
+  box-shadow: 10px 10px 10px 10px gray;
+  cursor: pointer;
+  height: 100px;
+  width: 300px;
+  content:'Убери!!!';
+  transition: all 1000ms;
+  margin-top: 1000px;
+  
+
+}
+
+.container{
+  max-width: 2852px;
+  height: 1000px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.block{
+  height: 200px;
+  width: 400px;
+  border-radius: 30%;
+  border: 5px solid rgb(0, 242, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
